@@ -27,3 +27,7 @@ $ . venv/bin/active</code></pre>
 
 ### Run Temporazer 3000
 <pre></code>(venv)$ python3 main.py</code></pre>
+
+### Hidden Option
+- Pressing the top-left black square you can hide the number when the timer is stopped
+- Pressing the top-right black square you can save the size and position of the timer for the next time you use the app

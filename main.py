@@ -48,13 +48,4 @@ class Temporizer3000App(App):
         self.title = 'Temporizer 3000'
         return guiRoot
 
-    def on_stop(self):
-        width, height = guiRoot.parent.size
-        Config.set('graphics', 'width', width)
-        Config.set('graphics', 'height', height)
-        Config.write()
-
-    
-
-
 Temporizer3000App().run()
