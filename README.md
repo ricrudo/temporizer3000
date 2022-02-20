@@ -15,6 +15,9 @@ $ cd Documents/temporizer</code></pre>
 - Download the repository
 <pre></code>$ git clone https://github.com/ricrudo/temporizer3000.git</code></pre>
 
+- Go to the app folder
+<pre><code>cd temporizer3000</code></pre>
+
 - Make and activate a virtual environment
 <pre><code>python3.x -m venv venv
 $ . venv/bin/active</code></pre>
