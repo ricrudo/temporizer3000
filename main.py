@@ -42,9 +42,10 @@ def initAll():
 
 initAll()
 
-class TimerApp(App):
+class Temporizer3000App(App):
 
     def build(self):
+        self.title = 'Temporizer 3000'
         return guiRoot
 
     def on_stop(self):
@@ -56,4 +57,4 @@ class TimerApp(App):
     
 
 
-TimerApp().run()
+Temporizer3000App().run()
