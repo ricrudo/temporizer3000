@@ -36,7 +36,6 @@ timeInput = '''
 class UserInput(TextInput):
 
     def insert_text(self, substring, from_undo=False):
-        breakpoint()
         self.parent.parent.parent.children[0].cicles = 0
         s = substring[:]
         if substring in ('1234567890'):
