@@ -42,7 +42,6 @@ class SettingOptns(BoxLayout):
         Config.set('graphics', 'width', width)
         Config.set('graphics', 'height', height)
         Config.write()
-        print(Config.filename)
 
     def blackDisplay(self):
         self.parent.children[0].color = 0,0,0
