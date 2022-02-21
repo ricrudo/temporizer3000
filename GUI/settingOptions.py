@@ -33,16 +33,16 @@ Builder.load_string(settingOptions)
 class SettingOptns(BoxLayout):
 
     def setPos(self):
-        print('r')
         top = self.get_root_window().top
         left = self.get_root_window().left
         width, height = self.get_root_window().size
+        Config.set('graphics', 'position', 'custom')
         Config.set('graphics', 'top', top)
         Config.set('graphics', 'left', left)
         Config.set('graphics', 'width', width)
         Config.set('graphics', 'height', height)
         Config.write()
-        print(top, left, width, height)
+        print(Config.filename)
 
     def blackDisplay(self):
         self.parent.children[0].color = 0,0,0
